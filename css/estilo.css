@@ -1,5 +1,13 @@
 header{
     width: 100%;
     height: 300px;
-    background: black;
+    background: red;
+}
+
+header h2{
+    color: blue;
+}
+
+h2, h3{
+    color: orange;
 }
