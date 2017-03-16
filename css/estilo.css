@@ -1,13 +1,13 @@
-header{
-    width: 100%;
-    height: 300px;
-    background: red;
+p.alerta{
+    color: darkred;
 }
-
-header h2{
-    color: blue;
+.letragrande{
+    font-size: 30px;
 }
-
-h2, h3{
-    color: orange;
+div#amarillo{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    margin: 20px;
+    border: 1px solid black;
 }
