@@ -1,3 +1,8 @@
+body{
+    background: khaki;
+    margin-left: 30px
+}
+
 p.alerta{
     color: darkred;
 }
@@ -10,4 +15,32 @@ div#amarillo{
     background: yellow;
     margin: 20px;
     border: 1px solid black;
+}
+
+.azul{
+    color: blue;
+}
+
+.verde{
+    color: darkgreen;
+}
+
+#rojo{
+    color: darkred;
+}
+
+p[class]{
+    text-decoration: underline;
+}
+
+h2[title="primer ejemplo h2"]{
+    color: darkred;
+}
+
+p[class~="letragrande"]{
+    text-decoration: none;
+}
+
+a[lang|="es"]{
+    font-style: italic;
 }
