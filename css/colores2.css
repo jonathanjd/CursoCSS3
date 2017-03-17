@@ -1,0 +1,10 @@
+body{
+    background: khaki;
+    font-size: 12px;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 0, 30);
+}
