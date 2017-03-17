@@ -5,30 +5,9 @@ body{
 }
 
 
-/*
-in -> inches (pulgadas) 1i n= 2.54cm
-cm
-mm
-pt -> puntos  1pt = 0.35mm
-pc -> picas   1pc = 4.23mm 1pc = 12pt
-*/
-
-.in{
-    font-size: 1in;
-}
-
-.cm{
-    font-size: 1cm;
-}
-
-.mm{
-    font-size: 5mm;
-}
-
-.pt{
-    font-size: 50pt;
-}
-
-.pc{
-    font-size: 1pc;
+div{
+    width: 60%;
+    height: 200px;
+    margin-left: 20%;
+    background: black;
 }
