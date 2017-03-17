@@ -70,3 +70,33 @@ No importa que sea consecutivo
 h3 ~ h3{
     color: red;
 }
+
+/*
+Selectores Colision de Estilos
+
+css navegador
+css perfil del usuario
+css desarrollador
+propiedades que el elemento hereda
+propiedades propias del elemento
+carga una a una las calses segun estan nombradas
+carga el id
+!important se impone a elementos de mas peso jerarquico
+*/
+
+footer{
+    font-size: 30px;
+}
+
+h3{
+    color: blue;
+}
+.verde{
+    color:green;
+}
+.red{
+    color:red !important;
+}
+#naranja{
+    color: orangered;
+}
