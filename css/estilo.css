@@ -44,3 +44,21 @@ p[class~="letragrande"]{
 a[lang|="es"]{
     font-style: italic;
 }
+/*      
+Para elemnetos hermanos inmediatamente despues del indicado
+
+elemento + elementoAplicar{}
+*/
+p + p{
+    color: gray;
+    text-indent: 30px;
+}
+
+/*
+Selectores hijos
+padre > hijo{}
+*/
+
+div > h1{
+    color: black;
+}
