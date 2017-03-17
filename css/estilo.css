@@ -1,102 +1,29 @@
 body{
     background: khaki;
-    margin-left: 30px
+    margin-left: 30px;
+    font-size: 12px;
 }
 
-p.alerta{
-    color: darkred;
-}
-.letragrande{
-    font-size: 30px;
-}
-div#amarillo{
-    width: 200px;
-    height: 200px;
-    background: yellow;
-    margin: 20px;
-    border: 1px solid black;
+.em{
+    font-size: 2em;
 }
 
-.azul{
-    color: blue;
+.ex{
+    font-size: 3ex;
 }
 
-.verde{
-    color: darkgreen;
+.px{
+    font-size: 20px;
 }
 
-#rojo{
-    color: darkred;
+div{
+    font-size: 2em;
 }
 
-p[class]{
-    text-decoration: underline;
+div p{
+    font-size: 1em;
 }
 
-h2[title="primer ejemplo h2"]{
-    color: darkred;
-}
-
-p[class~="letragrande"]{
-    text-decoration: none;
-}
-
-a[lang|="es"]{
-    font-style: italic;
-}
-/*      
-Para elemnetos hermanos inmediatamente despues del indicado
-
-elemento + elementoAplicar{}
-*/
-p + p{
-    color: gray;
-    text-indent: 30px;
-}
-
-/*
-Selectores hijos
-padre > hijo{}
-*/
-
-div > h1{
-    color: black;
-}
-
-/*
-Selectores de Hermanos
-No importa que sea consecutivo
-*/
-h3 ~ h3{
-    color: red;
-}
-
-/*
-Selectores Colision de Estilos
-
-css navegador
-css perfil del usuario
-css desarrollador
-propiedades que el elemento hereda
-propiedades propias del elemento
-carga una a una las calses segun estan nombradas
-carga el id
-!important se impone a elementos de mas peso jerarquico
-*/
-
-footer{
-    font-size: 30px;
-}
-
-h3{
-    color: blue;
-}
-.verde{
-    color:green;
-}
-.red{
-    color:red !important;
-}
-#naranja{
-    color: orangered;
+.rem{
+    font-size: 0.9rem;
 }
