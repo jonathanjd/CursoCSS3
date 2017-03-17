@@ -22,3 +22,7 @@ div{
 .rgbHsl{
     background: hsl(0, 100%, 80%);
 }
+
+.rgbDecimalAlpha{
+    background: rgba(0, 255, 0, 0.5);
+}
