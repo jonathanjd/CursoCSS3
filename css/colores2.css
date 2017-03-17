@@ -18,3 +18,7 @@ div{
 .rgbHexadecimal{
     background: #00ffff;
 }
+
+.rgbHsl{
+    background: hsl(0, 100%, 80%);
+}
