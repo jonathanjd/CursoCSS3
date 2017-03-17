@@ -14,3 +14,7 @@ div{
     height: 200px;
     background: rgb(40%, 0%, 30%);
 }
+
+.rgbHexadecimal{
+    background: #00ffff;
+}
