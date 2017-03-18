@@ -13,3 +13,15 @@ div{
     background: url(../img/imagen.jpg);
     background-origin: border-box;
 }
+
+.div2{
+    width: 75%;
+    margin: 7%;
+    height: 200px;
+    border: 10px solid black;
+    background-color: green;
+    background-image: url(../img/firma.gif),
+                    url(../img/imagen.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: right bottom, center center;
+}
