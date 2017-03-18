@@ -50,3 +50,31 @@ body{
     margin-top: 40px;
     padding-top: 40px;
 }
+
+
+/* Efecto de Sombra 3D */
+
+
+.div3{
+    width: 75%;
+    margin: 7%;
+    height: 200px;
+    background: darkslategray;
+    text-align: center;
+    
+}
+
+.div3 p{
+    font-size: 4em;
+    color: white;
+    margin-top: 40px;
+    padding-top: 40px;
+
+    text-shadow: 1px 1px 0px dimgray,
+                2px 2px 0px dimgray,
+                3px 3px 0px dimgray,
+                4px 4px 0px dimgray,
+                5px 5px 0px dimgray,
+                6px 6px 0px black
+                    ;
+}
