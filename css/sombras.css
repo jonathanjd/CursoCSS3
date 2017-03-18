@@ -16,7 +16,7 @@ body{
     box-shadow: 3px 6px 20px black;
 }
 
-p{
+.div1 p{
     font-size: 4em;
     color: white;
     margin-top: 40px;
@@ -25,4 +25,28 @@ p{
     /* Efecto de Sombras */
     
     text-shadow: 0px 0px 20px greenyellow;
+}
+
+
+/* Sombras Internas -> inset */
+
+
+.div2{
+    width: 75%;
+    margin: 7%;
+    height: 200px;
+    background: darkslategray;
+    text-align: center;
+    
+    /* Sombra interna utilizar la palabra inset */
+    
+    
+    box-shadow: inset 10px 10px 2px gray;
+}
+
+.div2 p{
+    font-size: 4em;
+    color: white;
+    margin-top: 40px;
+    padding-top: 40px;
 }
