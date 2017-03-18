@@ -1,0 +1,15 @@
+body{
+    background: khaki;
+    font-size: 12px;
+}
+
+div{
+    width: 50%;
+    margin: 7%;
+    height: 200px;
+
+    border: 10px solid black;
+
+    background: url(../img/imagen.jpg);
+    background-origin: border-box;
+}
